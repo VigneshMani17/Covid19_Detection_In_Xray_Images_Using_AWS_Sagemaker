@@ -56,4 +56,4 @@ def predict():
         return "Unable to read the file. Please check file extension"
 
 if __name__  == '__main__':
-    application.run(debug=True)
+    application.run(host="0.0.0.0")
